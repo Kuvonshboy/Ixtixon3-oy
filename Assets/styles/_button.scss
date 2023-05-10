@@ -1,0 +1,16 @@
+button {
+  padding: 14px 32px;
+  color: #ffffff;
+  border: none;
+  background: #3671e9;
+  border-radius: 32px;
+  transition: all 150ms ease-in-out;
+  &:hover{
+    color: #0d0d2b;
+    box-shadow: 0 0 10px 1px blue
+    inset, 0 0 10px 4px blue;
+    
+  }
+ 
+}
+

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.CRAPPO {
+    background-color: #0d0d2b;
+
+}
+
+.CRAPPO_2 {
+    margin-top: 100px;
+    background-color: #2b076e;
+
+}
+.CRAPPO_3{
+    padding-top: 50px;
+   padding-bottom: 100px;
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+.CRAPPO-4{
+    
+    background-color: #0D0D2B;
+}

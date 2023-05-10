@@ -1,0 +1,134 @@
+
+.header_wrapper {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header_left {
+    width: 135px;
+    height: 40px;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.header_center {
+  width: 300px;
+  margin-right: 80px;
+}
+
+.header_center-ul {
+  display: flex;
+  .header_center-li {
+    padding-left: 20px;
+    .header_center-a {
+      color: #ffff;
+    }
+  }
+}
+
+.header_right {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &-a {
+    padding-right: 20px;
+    color: #ffff;
+  }
+  &-line {
+    width: 1px;
+    height: 25px;
+    background-color: #f2f2f2;
+    margin: 0 10px;
+    opacity: 0.8;
+  }
+}
+
+.hero {
+  height: 600px;
+  display: flex;
+  margin-top: 50px;
+  background-image: url("../images/1.svg");
+  
+ 
+  background-repeat: no-repeat;
+  &_left {
+    width: 45%;
+    &-top {
+      margin-top: 50px;
+      width: 330px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 32px;
+      .save {
+        width: 100px;
+        height: 18px;
+        text-align: center;
+        border-radius: 32px;
+        background-color: #f2f2f2;
+      }
+      .subtatil {
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 300;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+
+        color: #ffffff;
+      }
+    }
+    &-h1 {
+      padding-top: 30px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 76px;
+
+      color: #ffffff;
+    }
+    &-p {
+      padding-top: 30px;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 21px;
+      line-height: 18px;
+      letter-spacing: 0.01em;
+      opacity: 0.8;
+
+      color: #e0e0e0;
+    }
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 32px;
+        height: 32px;
+        margin-left: 15px;
+      }
+      margin-top: 40px;
+    }
+  }
+ 
+
+  &_right {
+    background-image: url("../images/2.svg");
+    background-repeat: no-repeat;
+    top: -200px;
+    padding-left: 45px;
+    img {
+      width: 550px;
+      height: 500px;
+    }
+  }
+}

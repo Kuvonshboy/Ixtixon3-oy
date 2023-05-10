@@ -1,0 +1,228 @@
+.figcaption_top1 {
+  .figcaption_top1-h2 {
+    width: 750px;
+    padding-top: 100px;
+    margin-left: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+
+.figcaption_top {
+  display: flex;
+  &-left {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+    &-h3 {
+      padding-top: 100px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 150%;
+
+      color: #ffffff;
+    }
+    &-p {
+      width: 400px;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+
+      color: #e0e0e0;
+    }
+    button {
+      margin-top: 20px;
+    }
+  }
+}
+
+.bitcoin_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  width: 400px;
+  &-left {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &-center {
+    .title_smallest {
+      margin-top: -45px;
+      margin-left: 55px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+
+      color: #ffffff;
+      .Subtatili_bts {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #cfcfcf;
+
+        opacity: 0.7;
+      }
+    }
+    .BTS {
+      padding-top: 5px;
+      margin-left: 55px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #cfcfcf;
+
+      opacity: 0.7;
+    }
+    .bitcoin_flex-right {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: right;
+      letter-spacing: 0.01em;
+
+      color: #42ffff;
+    }
+  }
+  &-right {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #42ffff;
+  }
+}
+.figcaption_top-right{
+  position: relative;
+}
+
+.cors {
+  width: 450px;
+  height: 220px;
+  background: #35068c;
+  border-radius: 16px;
+}
+
+.trade__price {
+  position: absolute;
+  left: 40px;
+  top: 290px;
+  width: 160px;
+  height: 130px;
+  background: #491f98;
+  backdrop-filter: blur(125px);
+  border-radius: 16px;
+  text-align: center;
+  .title_smallest {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  .trade__price-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+
+    color: #f2f2f2;
+  }
+}
+
+.trade__price-right {
+  width: 130px;
+  height: 70px;
+  padding: 10px;
+  position: absolute;
+  left: 250px;
+  top: 290px;
+  background: #491f98;
+  backdrop-filter: blur(125px);
+  border-radius: 16px;
+  text-align: center;
+  .title_smallest{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  .trade__price-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+
+    color: #f2f2f2;
+  }
+ 
+}
+
+
+.figcaption_center{
+  display: flex;
+  margin-top: 170px;
+  &-left{
+    width: 55%;
+    img{
+      width: 600px;
+      height: 400px;
+
+    }
+  }
+  &-right{
+    padding-left: 50px;
+    width: 500px;
+    padding-left: 50px;
+    button{
+      margin-top: 20px;
+    }
+  }
+}
+
+.figcaption_bottom{
+  display: flex;
+  margin-top: 100px;
+  &-left{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    button{
+      margin-top: 20px;
+    }
+  }
+  &-right{
+    padding-right: 50px;
+    .Table{
+      width: 600px;
+      height: 480px;
+    }
+  }
+}

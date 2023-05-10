@@ -1,0 +1,30 @@
+.section_teg{
+    height: 500px;
+
+    
+    &-h2{
+        padding-top: 200px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        text-align: center;
+       
+        color: #FFFFFF;
+        
+    }
+    &-p{
+        width: 500px;
+        height: 52px;
+        margin-top: 20px;
+        padding-left: 310px;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+       
+        color: #E0E0E0;
+    }
+
+}
